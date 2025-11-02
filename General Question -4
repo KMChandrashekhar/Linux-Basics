@@ -1,1 +1,195 @@
+Trigent-L1
+
+Explain k8s architecture?
+Explain what happens in the background when we hit any k8s command?
+Explain about networking plugins in k8s?
+What is the desired state and current state in k8s?
+Pod affinity?
+Explain taints in k8s?
+Write manifest file for nginx pod creation (both deployment and service)?
+Have you created any ingress resource? How and explain ingress mechanism?
+Explain RBAC?
+Write a manifest file for RBAC?
+Write a dockerfile for a java based application?
+Suppose u create a pipeline in such a way that developers commit new changes so jenkins should start build automatically how u configure this scenario?  
+What do you configure in  jenkins to start building at a specific time?
+Explain workflow of terraform?
+Suppose you create a vm in cloud . How do you combine that vm in a state file using terraform?
+Types of provisioners we have in terraform?
+If the state file is locked if anyone hits the terraform command, what will happen to that statefile?
+
+Altimetrik-L1
+
+Explain how to increase and decrease size of ebs volume
+How mongodb schema work
+Command to create mangodb table
+How to increase max value for rds database
+Have u worked on api gateway, ecs, cloudfront, cognito, 
+How u integrate virus scanning tool to s3 bucket
+How u create mongodb schema
+Explain prune in docker
+How you persist data in container
+Command to delete all container in docker server
+How to integrate multiple java versions in jenkins pipeline
+Liveness probe in k8s with scenario
+Explain taints and toleration in k8s
+Which is the default tainted node in k8s
+Explain resource quota and where this resource quota can be implement
+What type of databases you have worked on
+Write terraform script to create security group 
+Provisioners in terraform
+Explain different data types in terraform
+Explain role in ansible
+What is handler and how u call it in playbook
+Give example scenario on what types of shell script you have written
+Single command to take backup of entire database
+Suppose I want my container to run a cloudwatch log group at every 12 min in a day? How do you solve this?
+
+First american-L1
+
+Can you explain your build and deploy strategy
+Scenario - there is 2 node one is linux and one is window, can you run both node in pipeline
+Diff between microservices and monolithic
+On what basis do you recreate infra in terraform? How does that deployment strategy work?
+When 2 developers are trying to deploy to the same environment, what will be the end result?
+How do you refer to modules in terraform?
+How do you provide environment variables in terraform?
+Diff between security groups and NACL?
+When do you choose an application load balancer?
+When do you choose a network load balancer?
+Is it possible to create subdomains in two cross accounts?
+If you are receiving a 503 error for application? What are the troubleshooting steps?
+Where do windows logs get accumulated?
+What monitoring tools are you familiar with?
+
+
+
+First american-L2
+
+In your organisation how you managed eks cluster
+How do you create a fresh cluster for 3 tier architecture in terms of security, deployment,database in k8s environment?
+How do you create a fresh cluster for 3 tier architecture in terms of security, deployment,database in aws ec2 instances?
+Which database are you using in your project?
+How are you going to create services for 3 tier architecture?
+Where do you store data in k8s if the pod gets deleted?
+How do you create custom ami?
+How do you automate the creation of ami?
+Explain helm?
+
+
+
+Ushur-L1
+
+How do you provision EKS clusters?
+How to achieve communication between the containers inside k8s with aws services?
+Suppose we have a volume we want that volume to be used by 2 different applications running in two different namespaces, how do you achieve this?
+Suppose you want to give only read only access to two developers ? how do you achieve this?
+Suppose we have a jump machine to connect to 10 clusters, multiple people are using the same jump machine to connect to clusters, say like if 2 people are working with 2 different clusters using the same jump machine with the same config file? How will you achieve this?
+Write sample jenkins pipeline?
+How do you deploy custom values through the helm in the pipeline?
+If helm upgrade is not happening ? how do you debug it?
+What is the timeout of helm commands?
+Have you worked with hooks in the helm?
+Write terraform code to create ec2 instances and create a security group “hello world” and attach that to the ec2 instances?
+I have a private hosted zone, I want that record which was created in that zone should be accessible from vpc? How do you achieve this?
+Write sample ansible playbook?
+Write a dockerfile to update the package and install aws-cli?
+
+
+
+Trontor-L1
+
+How do you autoscale your cluster in terms of cpu usage?
+How do you troubleshoot if any pod fails to restart?
+How do you control access to developers in a cluster?
+What is the importance of etcd?
+How do you expose your application to the outside world without using load balancers?
+What is the uscase of terraform init?
+How do you achieve integration between terraform and cloud formation?
+What are the importances of taint in terraform?
+How do you recover a lost state file which does not have any backend store?
+What is statelocking?
+Explain your cicd steps?
+What is an agent in cicd?
+What are the difficulties you faced in jenkins?
+How to control access to the UK for a website hosted in S3 and along with cloudfront?
+Where can you use ALB and NLB?
+Diff bet git merge and git rebase?
+
+
+
+Persistent-L1
+
+Write a dockerfile with entrypoint and cmd instructions?
+Write commands to build images and push images ?
+What is -it in docker commands?
+Diff bet cmd and entrypoint?
+Command to run image and publish ports also mount persistent volume in single command?
+Explain k8s architecture?
+Explain services in k8s?
+Explain ingress?
+How you deployed application, explain from scratch?
+Can you write a simple manifest file where you specify ram cpu?
+What is rancher and harbour?
+
+
+
+Trontor-L2
+
+What are all things you consider to create a CICD pipeline?
+What are agents in jenkins?
+How do you maintain plugins?
+Can you explain terraform configuration?
+Write terraform script for vpc, subnet, rt,igw creation?
+Write terraform script for ec2 instances?
+How do you deploy an application with EKS?
+What is elasticsearch?
+What database does elasticsearch use?
+How can you forward logs from k8s to logstash?
+Write a shell script to find log files which contain keyword cpu_usage?
+How do you reduce the size of docker image ?what steps you can consider?
+How do you scale up and scale down in k8s cluster?
+What is a load balancer? Types of load balancer?
+What is ALB?
+How do you configure sonarqube with jenkins?
+What kind of metrics you monitor in prometheus and what kind of alarms you set?
+
+
+Persistent-L2
+
+Explain CI?
+What all things you have to make sure while defining dockerfile?
+How do you maintain secrets inside dockerfile?
+How do you hardcode?
+How do you ensure the base image is out of vulnerability ,, how do you ensure?
+Explain your CD part?
+What kind of deployment environment you configured and how?
+About rancher and harbour?
+
+
+
+Ushur-L2
+
+Explain the cicd pipeline, which you have written?
+Any challenges you faced in configuration management tools?
+What are some security best practices you followed in devops?
+Any problem or troubleshooting you managed in your application?
+If an application is experiencing downtime, how would you handle situation detection and resolution, what steps do you take?
+If your application needs to scale in increased traffic,,,how would you approach this?
+How would you handle communication in a high pressure situation?
+Explain controllers in k8s?
+What's the rollback strategy you used?
+Have you deployed any redis using a stateful controller?
+How do you control master slave configuration in stateful?
+What are ordinals in statefulset?
+How do pods get IP addresses?
+Have you heard about iptables in k8s?
+Can you explain storage drivers in k8s?
+Any best practices you followed in writing dockerfile?
+What is UFS in docker?
+Lets say a module written in terraform which is spinning up sequel infra ,,the port of sequel should be 1433,,and one developer enters 1533 while calling a module,,how would you avoid that in terraform?
+What are the best practices you followed to manage the statefile?
+How did you work on migrating state files?
+What are the DR strategies you know?
+What is the meaning of RTO AND RPO?
 
