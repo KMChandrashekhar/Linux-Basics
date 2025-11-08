@@ -1,1 +1,80 @@
+IBM-L1
 
+Write groovy script to print number 1 - 10
+Write python script to print “hello-world”
+Write groovy script to change file extension?
+Command to create image
+Command to create container
+
+
+
+IBM-L1
+
+Why do we need k8s
+Why do we use kube scheduler
+How do you monitor pods
+If the pod goes down how to troubleshoot
+When do you observe restart of pods
+Diff between liveness probe and readiness probe
+Diff between node and pod
+How many pods can be there in node
+Can you explain ingress in k8s
+Diff between namespaces and labels
+What is init container
+Have you come across jobs in k8s
+How do you get issues
+What kind of tickets you get
+Can you tell me scenario where you got issue
+Can you tell me about scaling in k8s
+Consider you have a file under example.txt .you need to find that file and replace kubernetes word with k8s?
+Script input - helloworld output should be hel
+                                                                  l
+                                                                 o
+				                  w
+                                                                 o
+                                                                 r
+                                                                 l
+                                                                 d
+What is the first line of shell script
+Command to find the process using highest memory
+Command to kill process
+Why do we use -9 here
+Consider your application is running on 8080. How do you kill that process
+What all activities you do in pipelines
+When you commit something to ur code will jenkins trigger job
+Can we run jenkin as docker container
+Can you write how you pass parameter to jenkin pipeline
+Can we create ec2 without vpc
+How is the ec2 getting ip
+You created ec2 and the customer wants to access ec2 with his own vm. How do you do that
+How do you create high availability for the cluster
+What all things you created through terraform
+Can you explain how the structure looks like for creation of ec2-instance
+Consider you are creating multiple instance.you need to create first resource only after creation of second resource
+
+
+
+Saviynt-L3
+
+Day to day activities
+When you get critical issues how you gone resolve that
+Explain you project architecture
+How you do cd process in your project
+Explain your cluster size
+What kind of database you been using in project
+How you make sure the highly scalable and DR for your project
+How do you deploy same microservices in all the time
+You have any option to deploy same microservices in different nodes
+In your project how many k8s cluster is there
+How do you manage upgardation for cluster
+As part of upgradation your team is managing or any other team
+What all monitoring tools you have used
+Have you worked on severity issue
+When you building image or container how you manage vulnerability
+How do you manage credentials in jenkins
+Where you manage credentials in k8s
+What kind of integration you worked on networking part
+How is the communication happens from your backend to frontend
+In your project do you have separate vpc’s
+Have you worked on any audit related actions
+Why are you switching 
