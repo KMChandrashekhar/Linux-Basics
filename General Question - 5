@@ -1,1 +1,118 @@
+Global breezy-L1
 
+Write your cicd?
+How snyk or trivy work? How do you decide if a build is a failure ?
+Write dockerfile to ping google.com 10 times and exit ?
+Write commands to build dockerfile?
+Write a terraform script to create EKS cluster?
+How do you assign roles to microservices or pods or service accounts?
+Oidc provider?
+How do service accounts map to specific iam?
+What types of scripts have you written?
+Have you upgrade eks cluster?
+
+
+
+Saviynt-L1
+
+What kind of shell script you wrote?
+Explain how your day starts and ends?
+Can you tell me the process of creating ec2-instance?
+How userdata helps to create instances?
+How will you give access to one developer for your instances?
+If I don't want to give root permission to the developer.. How will you give access to developers?
+How does auto scaling work with desired, max,min?
+What is the use of a sticky session?
+Can we add multiple ebs to single instances?
+Can we attach a single volume to multiple instances?
+Can we be able to create one bucket named ‘abc’ in one region and another bucket with the same name in different regions, is this possible?
+Can you name some global services in aws?
+I deleted some data in s3. How can we retrieve it?
+Can you define how vpc components can be defined?
+How many default vpc can we create in one region?
+Diff between sg and nacl?
+In nacl i have created the 1st rule as allow ssh and 2nd as deny ssh. Which will take first?
+If you want high availability. What services do you use in aws?
+Where do you use cloudtrail?
+Let's say i have created a user having s3 access,and i add that user to the group. If that user permission got changed or not?
+Diff between ebs and efs?
+How to fix the exceeded error while creating ec2-instances?
+What is the purpose of ssh in sg?
+How do you assign a static ip for a public subnet?
+Diff bet git and github?
+Git commands?
+What is the purpose of creating branches in github?
+What is a merge conflict and how to resolve that?
+What is an image?
+Where does the docker volume be stored?#path?
+How do you delete a running container?
+Why do we need particular namespaces to deploy pods?
+Is pods stuck in init state or container creating state. What could be the issue? How do you troubleshoot it?
+What is corden in k8s?
+Command to display pods and ip addresses?
+Diff bet pv and pvc?
+Command to login to any pod?
+What are configmaps?
+Explain helm chart structure and also define?
+What is a terraform state file?
+Benefits of using terraform?
+What is jenkin and how will it be used?
+How you will interact with customer?
+
+
+CSG-L1
+
+Print 1 to 100 numbers. If number is divisible by both 2 and 3, then it should not print the number, instead it should print CSG
+Write any python script you written
+Questions related to SQL?
+
+
+Saviynt-L2
+
+What iam role will help to connect to session manager in ec2-instances?
+Diff between iam user and role?
+What u assign for s3 to access some other service. What will you assign for that?
+Explain briefy how you manage network for instances?
+Which service helps to check any activities in aws?
+What are service can be used configure alarms based upon threshold?
+How do u block specific ip in aws ?
+What is connection refused error ?
+How do you create eks cluster?
+What is the use of ALB?
+In which layer NLB work?
+Where you have set retention period?
+Explain s3 lifecycle policy?
+Command to create pod?
+Explain any maifest file?
+Command to delete pod for specific namespace?
+Command to get all pods in cluster?
+Explain what are the reasons behind the pod getting failure?
+Csi driver?
+I have 2 worker node and i have 2 pods. I want to run 2 pods in each nodes. Which type of file system you used?
+I have 2 worker node and i have 2 pods. I want to run 2 pods in each nodes. Which type of file system you used in terms of EKS?
+Configmaps?
+Suppose i have database credentials how you store it in k8s and how you make utilize for pods?
+How you expose application?
+What are the things you create in background for ingress controller?
+What annotations you configured in ingress resource?
+Diff between ingress and load balancer?
+When you are using ingress controller it will be using one of aws service. Which one you will use. Where you mention that?
+What will happen in background when you hit kubectl apply command?
+When you are running replicas 2 i want to edit replicas to 10 ? What method did you followed?
+Which component helps to pod to pod communication?
+What is the function of kubeproxy?
+What is the relationship between services and deployment?
+Which command you run to check if any pod is in pending state. How would you troubleshoot that?
+How you manage terraform backend?
+Can we store backend in diff aws services ? if yes y and if no y?
+How do you authenticate authorization in terraform?
+I want to rebuild infra which command i should use?
+Explain taints and tolerations in k8s?
+What is use of for_each?
+Suppose you create ec2_instance in t2.medium i want to change it to t2.micro? How you change it?
+What are handlers in anisble?
+What difference is there for creating ec2_instance in terraform and ansible?
+Suppose you run pipeline after one week there is a bug in application ? how do you troubleshoot?
+I have a pipeline i have 5 stages it should run sequentially how you do that?
+Diff between canary and bluegreen? Advantages and disadvantages?
+What are upstream and downstream in jenkins?
