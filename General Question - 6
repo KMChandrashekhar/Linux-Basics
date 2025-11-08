@@ -78,3 +78,104 @@ How is the communication happens from your backend to frontend
 In your project do you have separate vpc’s
 Have you worked on any audit related actions
 Why are you switching 
+
+IBM-L2
+
+Recent issue you resolved
+Explain your application
+What are the major components in your application
+Can you name the pod name you configured
+Do you have multiple namespaces in your application
+Where you deployed your environment
+How many environment you have
+Explain how many cluster you have
+How do you differentiate pods
+Diff between deployment and stateful controller
+Customer is not going to access application. How do you debug this?
+How do you block ip address in terms of k8s?
+How the request reach the application
+Have you configured ssl certificate on openshit
+Have you created ssl certificate
+Why do we need ssl certificate.whats the theory?
+What all different kinds of certificate?
+How do you check certificate for google
+What kind of work you do in docker
+Diff between entry point and CMD
+What is multistage build
+Where do you store images
+How do you maintain secrets in terraform?
+How do you authenticate in terraform
+How do you execute scripts in terraform
+Explain resource dependency 
+Why we need handlers
+How you store secrets in ansible
+Have you used delegates_to keyword in ansible
+What are blocks in ansible
+What is inventry
+What type of data u passed to inventry
+What is commit
+What is rebase
+How do you pass arguments to shell script
+If i want to execute a set of task before exiting from script how you do that
+How do you find highest memory 
+How do you change some values in a file
+How DNS service works
+What is trace
+Networking commands
+How do you connect to remote server
+What is the diff between internet gateway and nat gateway
+What have you specifically done on cloudwatch and cloudtrail
+
+
+Innominds-F2F
+
+Explain your project
+Explain your strength and weakness
+Are you willing to learn new tools and tech
+Explain your recent issue you solved
+Explain deployment strategies
+How you secure your cluster
+How you pass secrets 
+How you communicate with team
+What is your team size
+
+
+
+IBM-L3
+
+Day to day activities
+How often you do deploy
+What are the strategies you used for deployment to production
+Team size
+How do you handle rollbacks
+Shell script to find above average number in a string
+Day calls
+
+
+Itcinfotech-L1
+
+Introduction
+Day to day activities
+Where do you host your websites
+Where you storing sensitive data?
+Alb
+How do you do health check
+Terraform lifecycle
+How you gone store statefile
+How you reduce conflict in statfile
+How do you define different variables for diff environment
+How do you get ip in terraform
+How to do get resources cerated in manually to statefile
+How do you maintain any dependency in terraform
+Any recent issue
+Terraform graph
+If statefile deleted what command you hit to get info
+Network policy in k8s
+Services in k8s
+What is the command to increase scaling
+Livness and readiness probe
+How you connect to host machines in ansible
+Git merge v/s git rebase
+What plugins you used in jenkins
+How you create user and how you give root permission
+
