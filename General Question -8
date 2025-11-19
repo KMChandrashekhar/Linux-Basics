@@ -1,1 +1,186 @@
 
+Trianz-L2
+
+1.Introduction
+2.Is it possible to attach a load balancer to private subnet? IF possible what and all configurations need to be done?
+3.Difference between ALB and NLB?
+4.If application in instance is not reachable what you will do?
+5.How to pass status check log to cloud watch?
+6.What things you monitor in logs
+7.How to get quick alert of logs, if logs are very huge , we can’t monitor continuously, how to get automatic alerts
+8. What is difference between metric and log?
+9.What is formate of logs
+10. Difference between policy structure of bucket policy and IAM policy?
+11. How to create access to ec2 to s3?
+12. What is the specific name of Role that u attach to ec2?Is it just called Role or any specific name is there?
+13.Is it compulsory to have bucket policy to provide access to s3 from ec2?
+14. Have you used Terraform and Cloud formation?
+15. Explain about your recent challenges  that you faced and solved it? 
+
+Material+-L2
+
+1.Introduction
+2.how DNS works in k8s? Let me ask a scenario on Networking trouble shooting
+3.if Core DNS is not working, it takes time to trouble shoot it, What u will do to serve traffic 
+4.in EKS cluster If instance gets created in different region while doing upgradation, It happens with AWS many times, what You will do ? What happens with Ebs because they can’t connect to instance in different region
+5.How networking is established between Dynamo DB and pod? Iam not asking about authentication method.
+6.Tell me a scenario where you have done automation task which has reduced a 6 hr of manual work
+7.For stateful set what happenes with respect to pvc, why we choose statefulset over stateless even though its complicated to host DB.
+
+Mphasis-L2
+
+1.Introduction?
+2.How to solve CreashLoopBackOffError in k8s?
+3.Have you created alerts? Using which tool?
+4.Have you created alarms with grafana?
+5.Have you written PromQl queries?
+6.Have you worked with creating and deploying images end-end?
+7.have you created terraform scripts?
+8.Do you have experience with Python?
+9.Explain your Branching strategy
+10.have you created Multibranch pipeline?
+11.How to customise helm and reuse existing helm templates?
+12. Whats the difference between pod and container?
+13. Can a pod have multiple container? Why cant we have ?
+14.What the use of initContainer? Why u used it?
+
+Innominds-L2
+
+1.Introduction?
+2.How to trouble shoot if developers is not able to access application?But devops team is able to access
+3.What inputs are required before creating an instance?
+4.How jenkins authentication is done ?
+5.How to create EKS cluster from scratch?
+6.how to push image to ECR ? what are steps need to be followed?
+7.What are different types of storages available in Aws
+8.what monitoring you have done ?
+9.Have you written any jenkins plugins or just used existing plugins?
+10.Difference between On-demand, Reserved instance, spot instance
+
+Accolite-L1
+
+1.Introduction?
+2.How to establish connection between ec2 in different accounts?
+3.Whats difference between deployment and statefullset?
+4.If master node in statefulset dies what name it gets?
+5.how statefulset store data? Why they are called statefullsets?
+6. If master pod dies then what happens with write request? Can it wait?If there is a java application which is submitted a data and another page is displaying the data, what this page will display if master is not ready to take write request?
+7. Why we need to create separate Pv for every pod?
+8.How to attach policy to 1000 of eks cluster?
+9.do you know python? 
+10. Write a python code to swap 2 numbers
+
+O9solutions-L1
+
+1.Introduction?
+2.what is Pv , how to create it?
+3.write yaml for pv, pvc, deployment?
+4.Write a yaml file for deployment?
+5.write a declarative pipeline?
+6.What is jenkinsFile? 
+7.How to add users to jenkins?
+8.How to take backup of jenkins?
+9. How to establish connection with github and jenkins?
+10.Where do you store credentials in jenkins?
+11.How to create agents in jenkins?
+12.What is VPC?
+13.What is jenkins?
+14.What is k8s?
+15.What is use of load balancer in k8s?
+16.List services which are not region specific/
+17.What is region and availability zone?
+
+IBM-L1
+
+1.Introduction?
+2.how to check disk space?
+3.explain the entire flow from creating docker to deployment?
+4. How jenkins is able to communicate with k8s
+5.What are diff types of probes?
+6.can we have multiple container in pod? What is use of init container?
+7.How ingress is able to create ALb automatically?
+8.How EBS is able to create volumes automatically?
+9.How to give access to configuration data to applications?
+10.What is use of name space?
+11.If 2 pods are in different name space has to communicate with each other what we need to do?
+12. What is grace period in k8s?
+13. What is restart policy ?
+14.If Container needs time to start and shutdown gracefully what we need to do?
+15. What is use of lambda?
+16. How to configure Lambda to run for 20 min function?
+17. What is concurrency model in lambda?
+18.how lambda is able to automatically run code ?
+19.In case we need to fetch image from other platforms what need to be done?
+20.use of module?
+21.If I want a terraform resource to be running but it shouldn't be managed by terraform from now, what we need to do?
+22. Write a script to print count of files ending with -test in S3 bucket?
+23. Wite a script to print ec2 instances that are in pending state?Assume the list of ec2 instances you are getting in array formate
+24. Write terraform code to create 10 s3 bucket by calling a pre existing s3 module
+25.Differnce type of services available/
+26.if i want to access a pod with node port service which ip address i need to select from worker nodes?
+
+
+
+Encora-L1
+
+1.Introduction?
+2.Explain challenge you faced, issue , how you got it, how to fix it, 
+3.If Infrastructure goes down what precautions you will take to rectify the issue and what plans you will make to rectify it in future?
+4.How you will create a script to customize its execution based on requirements
+5.Write a python program to customize creation of terraform scripts to create resources based on values
+6.Write a python script to customize Ansible module to perform execution and reuse existing playbook 
+7.How to configure Ci-Cd with gitOps principles?IF company wants to migrate to gitops
+
+First American-L1
+
+1.Introduction
+2.What is use of jenkinsfile?
+3.If i lost a private key and need to access the instance what is the solution
+4.explain your jenkins file?
+5.Difference between declarative pipeline and scripted pipeline
+6. How to store credentials in jenkins?
+7. Without down time how to upgrade application in ec2-instance
+8.What you check if application is showing 503 server error
+9. What is the difference between load balancers that you have used?
+10.what is difference between Availability zone and data center?
+11. Give list of services that are not region specific
+
+Nomiso-L1
+
+1.Introduction?
+2.How to restrict image access in ECR to a particular environment?
+3.Difference between cmd and run?
+4.A system should not breach particular threshold how you will do it with respect to observability tools?
+5.If any breach of SLA’s happens in Aws how you will set it up?
+6.Write a terraform code to deploy a 2 tier architecture lets say nodejs and backend
+
+IBM-L2
+
+1.Introduction?
+2.Explain your recent project architecture?
+3.What was your project?
+4.How many pods? What are the names of pods?
+5.have you used SQS service?
+6.When data has to be written to database from multiple pods will it not cause problem?
+7.Git Stash, git rebase?
+8.Write and Explain you jenkins pipeline?
+9.Can stages run parallely?
+10.Can steps run parallely?
+11.Have you created pipeline other than deployment?
+12.Networking command that you have used?
+13.What TCP dumb do?
+14.what is use of df -Th?
+15. Difference between df -Th and du -h
+16. Write a ec2 instance terraform script?
+17.If application is not accessible what you will do?
+18.In ansible have you used sync and poll?
+
+First American-L2
+
+1.Introduction
+2.How you will achieve high availability, scalability, security to cluster?
+3.Using single terraform code how to create same resources in 100 AWS accounts?
+4.How you will achieve high availability, scalability, security to applications with 3 tier application?
+5.If we want to upgrade instance without down time how you will do?
+6.Which update strategy you are following?
+
