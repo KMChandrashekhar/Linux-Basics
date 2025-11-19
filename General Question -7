@@ -1,1 +1,227 @@
+Mphasis-L1
+
+1.Introduce yourself with tools that you have used?
+2. What are statefulset set and how they differ from deployment ?
+3. What monitoring you have done through Prometheus and Grafana other than eks monitoring?
+4. When we get crashloop back off error?
+5. How do you trouble shoot eks cluster if something is not working?
+6. Explain Helm folder structure?
+7. Difference between git pull and git fetch?
+8. What is git stash?
+9. Terraform tf state file usecase and when it will get created?
+10. What Terraform plan do?
+11. Have you used any other tools other than prometheus, grafana for monitoring?
+12. Do you know Splunk?
+
+CGI-L1
+
+1.Introduce yourself?
+2. Difference between git pull and fetch?
+3.when we use git stash?
+4.how private ec2 get access to internet?
+5.what are subnet associations?
+6. How to secure secretes in ansible?
+7. What are ansible role?
+8. What are notify in ansible?
+9. How master and slave node communicate in ansible?
+10.what terraform apply, validate do?
+11. What is use of terraform modules?
+12. Give one example of where you created alerting?
+13. What is ELB and its type?
+14. How to create a container?
+15. In jenkins what are upstream jobs, explain flow?
+16. How to restart a pod?
+17. What are compose files in Docker?
+18. Why we use Docker volume?
+19. How to create ansible vault in ansible?
+
+Teksystem Global services-L1
+
+1.Introduce yourself?
+2.Write a jenkins declarative pipeline syntax?
+3. How API are integrated with jenkins, in case any code need to execute a jenkins job how it will be done?
+4. Which type of triggers you have used?
+5. Have you used lambda function?
+6. How to avoid DDOS attack on instance using lambda functions?
+7. What is execution time of lambda?
+8. What framework you have used in lambda functions?
+9. Which services you have used in AWS?
+10. How you used sonar qube in jenkins?
+
+Globant-L1
+
+1.Introduce yourself?
+2.git stash?
+3.Differnce between git merge and rebase?
+4.explain your CI and CD Stages in Jenkins?
+5.terraform how to deploy into different Environment other than workspace?
+6. Use of Terraform Modules?
+7.how u Monitor Kubernetes Cluster?
+8. Can we create pod in master node?
+9. Can we have multiple master node in k8s?
+10. What are static pods?
+11. How to create a connection between instances and upgrade application in those instances?
+12. Which modules you have used in Ansible?
+13. How to establish connection between a 2 Different accounts through IAM Roles?
+14. Have u used Lambda functions ?? what are challenges faced in lambda functions?
+15. Explain 3 tier Architecture considering Security, Availability, No downtime with Aws services?
+16. Explain k8s services?
+17. If ec2 is down and not accessible , how do you trouble shoot it?
+18. If container is not running , how do you troubleshoot it?
+19, If Ec2 Instance is not running and failing again and again, how do you trouble shoot it?
+20. If I need to take back up of Jenkins job , how u do it?
+
+
+Trianz-L1
+
+1. Introduce yourself?
+2. Different types of Ec2 instance options we have based on cost?
+3. How to establish connections between 1 ebs volume and multiple ec2 instance?
+4. What is use of s3 versioning?
+5. How to role back to previous version in S3 bucket?
+6. How to establish connection between Account A and Account B?
+7. If 2 instances are in different VPC , how to establish connection between them?
+8. Incase CIDR block overlaps how to establish connection?
+9. What is SES?
+10. In terraform have you used null resource?
+11. Where do you store your state files?
+12. How auto scaling group works?
+13. What is Route 53?
+14. What are private and public hosted zones in Route 53?
+15. How Liveness Probe and Readiness Probe works?
+16. How to configure credentials of Github and Aws in Jenkins?
+17. How you will get to Know whether a subnet is private subnet or public subnet?
+18. Incase private subnet need internet access to download dependecy, how to do it?
+
+Softtek-L1
+
+1.Introduction
+2.How many pods are there in your project?
+3.How many ec2 instances are there in your project?
+4.How many AWS account are there in your project?
+5.how many applications are there ?
+6. Difference types of EBS Volume we have?
+7.Monitoring and analysing system logs and metrics to identify performance issues, bugs, or security threats, and taking necessary actions to resolve them —> how you have done this?
+8.What services are there in your main AWS account?
+9.Have you created all your services with Terraform?
+
+
+Altimetrik-L1
+
+1.Introduction
+2.In CI-CD how do you maintain pipeline as a code?
+3.How to do code coverage?
+4.Why you are using Sonarqube and Trivy together in your pipeline?
+5.Which are the types of scripts you have written ?
+6.How you maintain state file in terraform?
+7. Have you used null resource in terraform?
+8. Difference between EBS and RDS?
+9. What are NS Records in Route 53 ?
+10.How to create infrastructure for disaster recovery?
+11. How you manage credentials in terraform ?
+12. How you manage secrets in Ansible?
+13. Where do you store your secrets file in Ansibel?
+14.Write a script to copy files from a certain path and push it into s3 bucket?
+16.What is the use of Sticky bit?
+17. Have you used LVM?
+18. When is your last working day?
+19. If you already have offer in hand why you are again giving interviews
+20.If I want to bring manual changes to state file what you do?
+21.Do you know CDN? Have you used Cloud Front?
+
+
+	
+Material-L1
+
+1.Introduction?
+2.Best practises with Docker file
+3.How do u upgrade EKS Cluster and make sure terraform will not undo it?
+4.Have u created infra through terraform with jenkins?
+5.How u manage secrets in k8s?
+6.How do you manage  prometheus for different EKS cluster 
+7.How you created alerts from monitoring tools?
+8.How prometheus gets data?
+9.How ELK gets data?
+10.How you share ELK logs with developers?
+11.Have you used pagerduty?
+12.Have you used datadog?
+13.Difference between security group and NACL?
+14.How to create cross account access?
+15.Where do you maintain your statefile?
+16.If multiple users wants to access state file what will happen?
+
+Innominds -L1
+
+1.Introduction
+2.How private subnet can download dependency?
+3.How to connect VPC in different account?
+4. What is transit gateway?
+5. Incase statefile gets deleted what you will do?
+6.Different types of s3, and its usecases?
+7. Incase ec2 needs access to s3 bucket how u do it?
+8.How instances in subnets communicate with each other?
+9.How many Ip we get from 16 CIDR block?
+10. Whats range of CIDR block?
+11. Write service manifest file?
+12. Write ec2 terraform resource block?
+13. Default port , if we dont specify port number?
+14. How to create workspace?
+15.How cluster Ip can communicate with pods?
+16. How to access pods without Ingress/load balancer?
+17.How to create ALB loadbalacer for EKS cluster?
+
+	
+ITCInfotech-L1
+
+1.INtroduction
+2.Explain CI-CD setup
+3.In Terraform how to execute a particular code in one environment and not in other environment?
+4. Do you know Terraform in-bout
+5. Terraform meta arguments
+6.If state file is deleted but u have configuration file, what will happen if u execute terraform apply?
+7. Give Git commands that you have used?
+8.What is use of git cherry pick?
+9.Does merge conflicts happen whenever you run git pull?
+
+Globant-L2
+
+1.Introduction?
+2.How to attach EBS to multiple instances ?
+3.How to check network to get data flow?
+4.Write a script to check if httpd is running or not? If not running then start service
+5.Write a Dockerfile
+6.Best practise with Docker
+7.If disk space is 2GB and image size is 500MB can we run 4 Conatiner?
+8.How you implemented State locking and backend?
+9.How to maintain Module versions?
+10.how to call a module?
+11.How to execute a command in 150 instances at a time?
+12.How you manage 100 EKS cluster?
+13.How to give only kubectl access to EKS cluster, no console access 
+14.Differenet type of Route 53 record
+15.How to establish connection between on-prem and aws and execute aws s3 cp commands?
+16.If multiple agents have different jdk, Is it possible to establish connection?
+17. By default Cloud Trail is enabled or not?
+18.By default Cloud watch is enabled or not?
+19.Explain you jenkins pipeline?
+20.A file consist of 1000 lines How to run ansible to edit from line 200 to 500?Which module you will use?
+23.Explain ansible handlers
+21.Do you have any certifications? OR you plans to do? 
+22.If any arguments within you team members ? How you solve it?
+23.How to copy s3 objects from one bucket to another?
+24.Do you know about IAM Anywhere
+25.If we tell you to work on GCp/Azure how much time you will take to learn?
+26.Difference between Liveness probe and Readiness Probe
+
+ Virtusa-L1
+
+1.Introduction?
+2.Difference between Liveness probe and Readiness Probe?How to check status?
+3.Scenario question on Probe actions
+4.If etcd is not working, what backup idea you have?
+5.If iI want image from running container what you will do?
+6. If I want older version of that image , then what you will do?
+7.Do you know Athena, kinesis,WAF?
+8.If i want to block 5000 Ip address what you will do?
+9.IF pod need to access S3 bucket, what you need to do?
 
