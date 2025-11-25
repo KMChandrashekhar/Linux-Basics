@@ -1,0 +1,249 @@
+Gravityer-L1
+
+What is the issue if mysql log file of 50GB is full in VM & we deleted the file. The new file is created but the 50GB space is not cleared in VM even after deletion. What is the reason?
+How to run the ansible playbooks in each server one by one of 10 servers?
+What is private subnet & public subnet & difference?
+Where is Terraform statefile stored?
+Experience in managing the Linux servers
+
+Global Logic-L1
+	
+Tell me about yourself
+Explain loadbalancers in k8s
+Explain k8s architecture
+Explain the terraform modules & use cases
+Tell me about docker scaling
+Tell me about Kubernetes monitoring
+Tell me experience about prometheus & Graphana
+Tell me about Jenkins - Kubernetes Configuration
+Tell me about stages of jenkins pipeline
+Any experience in shell scripting?
+Experience with AWS services
+Command to stop docker container
+Git stash command usage
+Git Cherry pick usage
+
+
+Globant-L1
+
+Tell me about yourself
+Day to day activites & tracking?
+Stages of the pipeline, explain
+What is the application you managed in your organization? is it microservices?
+What is the branching strategies in your project?
+What is merge conflict? When it happens?
+Have you worked on bitbucket? 
+What is the master -slave configurations? 
+Tell me steps where the agent configuration is done in jenkins console?
+How will you store the secrets in the devops tools?
+Tell me the jenkins secrets how you add?
+How is sonarqube connection done with jenkins & explain for maven & nexus repo as well
+Explain maven lifecyle
+Where does the maven files located?
+Types of repositories in maven
+What is poll scm vs the webhooks?
+Which is good trigger is good for the pipeline?
+Have you created the helm chart?
+Write a dockerfile to run a nginx as container (https://codeshare.io)
+Explain Docker networks
+What are components of k8s
+What is kube proxy
+What to use when you want to deploy in particular node.
+How does the scheduling of pods happen in kubernetes?
+what are some errors of kubernetes you solved?
+What is the flow of pod creation after commands 
+How do you expose the apps in cluster
+Tell me flow on what happens in the background of a cluster
+What is the static pod vs the normal pod
+
+LTIMindtree-L1
+
+What are stages in pipeline
+Tell me the real errors that you faced in kubernetes
+What are the shared libraries when you used & why you use?
+What is the project environments that you managed?
+What is your SCM & branching strategies you used
+Build tool experience? Maven or gradle?
+Tell me maven lifecycle
+What does the pom.xml has & settings.xml has?
+What does MVN clean install do & MVN install?
+How is the code quality testing done?
+How is the nexus artifacts stored & how is it deleted?
+How is the sonarqube configuration & threshold configured?
+How is the sensitive data used in kubernetes?
+When are vault used in devops project?
+How is the encryption & decryption done in kubernetes?
+Write a jenkins pipeline syntax
+Write shell script to get the failure logs alone from the log file
+
+
+Techment-L1
+
+Tell me about yourself
+Jenkins pipeline, tell me the stages you wrote
+How is the DB configured in the kubernetes & tell me the activites you did in Kubernetes cluster
+How do you bring the logs to store where you want? Tell me the ELK Configuration you did
+What is the use of filebeat
+Have you write the alert rules in prometheus?
+Do you know about metric beat?
+
+
+
+Mphasis-L1
+
+Tell me about yourself 
+Day to day activities
+How to solve merge conflict issues
+Experience with AWS services
+Explain terraform statefile management
+Explain Ansible handlers
+How is the kubernetes ingress & ingress controllers does
+What is the tomcat folder to store the war files
+What are the docker networks
+How is kubernetes monitoring done?
+How is the ELK stack configured
+Explain jenkins triggers
+Explain Jenkins stages you write in pipeline
+
+
+L2-Mphasis
+
+Explain the activities you are doing in your previous 2 roles
+How will you manage issues & conflicts with the developers 
+Explain about your Certifications on AWS
+Interviewer explained about the requirements of their new project
+Explain about your project architecture & your roles
+Explain about the Terraform activities that you did
+Explain about the ansible activities that you did
+Explain about the AWS Services you have used
+
+ValueLabs-L1
+ 
+Stages involved in the pipeline
+How does the jenkins communicate with the kubernetes?
+Is it declarative pipeline or the groovy pipeline?
+How do you troubleshoot the issue in kubernetes?
+Did you ever use splunk? Do you have any idea? & Datadog?
+Tell me other monitoring tools you worked on?
+Have you ever used tomcat? & SSL configuration?
+How is it configured & what is the folder that stores the war files?
+Tell me the branching strategy you used in your project?
+What is the git command you use to move from one branch to another branch? 
+What are the scripts you have written in your role?
+What are the database you worked on?
+What is the port number of the mysql database?
+What are the things you do in Docker?
+How do you manage the server? What did you do for server management?
+Tell me the storage you used?
+What are the VPC components that are present?
+What are the terraform script you have written? Tell me a scenario you used?
+What if the PVC deleted? Does the data save after deletion? Explain reclaim policies.
+Explain ingress & ingress controller.
+Why do you want to change the company now?
+ 
+Epsilon-L1
+ 
+Tell me about your past experience
+Why is AWS Cloudfront used?
+Which one is more user friendly? Terraform or Ansible? & economical & costwise?
+If you have 30 servers, how will you manage? Terraform or ansible?
+Difference between docker & kubernetes?
+If using docker, can you stop the containers? Tell me commands
+Do we option that if container has issue, can we restart it?
+Tell me what ELK configuration you did
+If you have html page, you need to host it in ec2. Domain name you give, how will you allow access to it.
+What is the API gateway & server errors
+is it okay to bypass gateway?
+How does the load balancer works, if you have 10 servers. How does it load splits?
+If 2 servers go down, how does it know that traffic won't go to that servers?
+What is lambda & what does it do?
+What is concurrency in lambda
+How does the terraform help in managing the multiple clouds?
+How you feel jenkins is easier compared to other
+Is it easy to migrate from bamboo to Jenkins? Can we do it?
+What is CIDRs block?
+ 
+Sourcefuse-L1
+ 
+Tell me about yourself
+python or shell scripting knowledge
+Write simple shell script to reverse a string
+What are requests & limits in kubernetes
+What to do if pod doesn't start, what to do?
+tell me 5 shell command used to troubleshoot
+How docker & kubernetes are related to each other?
+How prometheus collects the data from EKS
+Tell me other exporters that you used for prometheus
+
+Trianz-L1
+
+
+When is rebase used? & when is merge used?
+Experience in EKS?
+Docker image, have you written?
+To deploy an application, image pull error how will you resolve?
+How do you monitor pods
+List some metrics used to monitor
+Supporting production or build phasE?
+Tell stages of pipeline you wrote
+If threshold of code coverage, how do you set?
+If sonarqube stages fails, what could you be the issue?
+How is the statefile managed in terraform?
+When is ansible used & what are things did you do?
+Explain terraform taint when it is used?
+What do you know about terraform plan?
+How do you solve the lock in terraform?
+Will you be able to learn new skills in our project?
+
+
+Valuelabs-L2
+
+give me brief about your role
+What are the projects you supports?
+Any experience on banking or finance or insurance domains?
+What are the DBs you have worked?
+In application server, what are the thing you worked on tomcat?
+Knowledge on security area, like SSL?
+ArgoCD, what have to done?
+Explain code quality testing in sonarqube, how do you configure?
+Experience on openshift?
+networking experience?
+Import of data to database have you do?
+windows or linux servers, what have you worked on?
+Experience in python?
+Handling of networks & firewall?
+Agile delivery model any idea?
+Security tools you have experience on?
+ 
+
+Virtusa-L1
+
+Tell me about yourself
+How to encrypt ebs volume once it is attached to ec2 inside the server
+What is difference between static pod & daemonset?
+what happens if apiserver goes down, can you schedule in the worker nodes?
+What is k8s architecture
+If the pod runs in k8s with a docker image with entrypoint, can it be overrided?
+How to transfer 2TB data from S3 bucket to another bucket?
+Explain services in the kubernetes cluster
+
+Globant-L2
+
+Tell me about yourself
+Explain pipeline stages in your project
+Explain the sonarqube configuration & Code coverage
+Explain the AWS services
+Explanation about project you worked on
+
+Wipro-L1
+
+Tell me about tools you worked on
+Difference between rsync and scp
+Tell me crontab command to update every 3 minutes
+Explain kubernetes components
+Use of PV & PVCs
+Tell me a dockerfile instructions of a how to run jar file
+How 3 tier application is configured in AWS?
+Explain k8s components
+Tell me automation shell scripts you worked on
+what does -f flag mean in tar command
