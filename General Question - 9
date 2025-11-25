@@ -1,1 +1,231 @@
+Mphasis-L3-Client round
+
+1.Introduction?
+2.How you deploy using helm?
+3.How to delete a release if it fails?
+4.Difference between CMD and Run?
+5.In monitoring how prometheus is deployed , for what purpose you have used?
+6.In grafana how to set alerts?
+7.If alert sustain only then notification has to be sent, how you do that?
+8. How you send alerts ?
+9.How ELK works?
+10.How to automate alerts in ELK when particular event pattern occurs?
+11.How to make use of existing helm layers available in public repository and use it according to our project
+
+IBM-L3
+
+1.Introduction?
+2.Explain your project?
+3.Your team size
+4. You were part of deployment ?
+5.have you worked individually when team members are on leave?
+6.Write and execute code to print array elements which are above the average
+7.Which is your favorite tool?
+
+
+Harman-L1
+
+1.Introduction?
+2.Have you installed ELK?
+3. What are nodes in ELK?
+4.Have You used plugins in ELK?
+5.How to configure ELK to access Jira?
+6.What is Architure of ELK?
+7.How to update image in ec2 without downtime in EKS cluster?
+8. In terraform have you used Null resource?
+9.How you have managed State file in terraform?
+
+
+Popreach-L1
+
+1.introduction?
+2.What is OSI model?
+3.Which linux flavours you have used?
+4. What is Linux version you have used?
+5.how many instances are there in your aws account?
+6.How to check disk size?
+7.How to increase resource limit for a user?
+8.how you set up monitoring ?
+9.What is maximum buckets limit in an account?
+10.What is maximum vpc limit per account?
+11. What is max subnet limit in an vpc?
+12.Have you written any scripts?
+13.How to get users list in an linux servers?
+14. How to get list of only users from it , I dont want other details ?
+15. Command to check server uptime?
+16. How to create a new git repo, explain steps
+17.How to undo changes in remote git repo?
+18. What are these services SES, SNS
+19.Explain your Ci-CD steps?
+20. What is use of sonar-qube?
+21. What is virtual memory and physical memory?
+22. How routing works?
+23.What are different types of files? And how to identify them?
+24. What is use of UID and GID
+25. What is filesystem that your linux machine is using?
+26. Command to check resources in linux?
+27. What is instance hardening?
+28. Difference between ALB and CLB 
+29.What is Helm?How it can be used?
+30. How to transfer file from host to running container?
+31. If Images are deleted from host machine will container work?
+
+EXLService-L1
+
+Introduction?
+Explain how you will create a frontend and backend application with security, disaster recovery, and cost optimal?
+What are your views on terraform?
+Explain your trouble shooting scenario
+Different types of Load balancer, explain them?
+
+EXLService-L2
+
+1.Introduction?
+2.Write python code to print even number in python?
+3.Write declarative pipeline
+4. Do you know groovy language?
+5.have you written shared libraries?
+6.How to give internet access to private instance?
+7.Components of Master node in K8’s?
+8.If pod is restarting again during night time , how you will you shut it down automatically/?
+9.Which modules you have used in python?
+10. Have you used forgate?
+11. How many Vpc can be created per account?
+12. How to provide connection to 2 different vpc
+
+coforge-L1
+
+1.Introduction?
+2.Differnce between splunk and ELK?
+3.How you have used monitoring tools?
+4.Differnce between SRE and DEVOPS engineer?
+5.What task you did as a devops engineer in SDLC 
+6. As a part of security what you have done?
+7.IF application is not responding within a time what you will do?
+8. Do you prefer using Ansible for deployment?
+9. Why you have used terraform over cloud formation?
+10.have you worked in AZURE?
+11.How you integrated quality gateways in CI-Cd?
+
+Gradencity-L2
+
+1.Introduction?
+2.How to automate image hardening?we can do it through packer
+3.how to automate network debugging have you used any tools?
+4. How you have achieved high availability in Aws infra?
+5. How you have achieved high availability in K8s
+6.How to reduce cost with respect to load balancer?
+7.have you used userdata in instance?
+8. How to automate installing when new instance starts by ASG?
+9.HAve you written shared library
+10.If there is big version difference in Image of PHP application, how you will manage it?How you will manage your gitLAb repo for it?
+
+BCT-L1
+
+1.Introduction?
+2.Do you know reddis?
+3.Different types of SQS
+4.Have you worked on CLoudfront?
+5. How instance can communicate with RDS?
+6.Draw VPC architecture with LB, Route 53, instance, RDS, and S3
+7.Explain your jenkins pipeline
+8.What are components of K8s
+
+
+Nielsen-L1
+
+1.Introduction?
+2.What does this command prints?
+Ps -ef | awk {print$1} | sort | unique
+3.There is instance A in same LAN as instance B, there is no sufficient resource available in instance A and our local machine has access to instance A only, how to get data from instance B to our local machine
+4.what is the output if scripts?
+5.observe the image for 5 seconds. How many gems are there , which color gems?how many gems are there in box, From which angle light is falling?
+6.What is the logical output of these 2 commands?
+7. How to run scheduled jobs?
+8. When it will be executed? */5 * * * * && /scirpt.sh
+10. Difference between CI, CD, Continuous delivery?
+11.Differnce between integration testing and acceptance testing
+12.An executable crashes in Linux. What do you do?
+13.What this command is doing?
+sed '/^$/d' -i reboot
+how differs from the command below?
+awk NF sleep > reboot
+14.What is the difference between a hard and soft symbolic link?
+15.we have a big text file (some GB) that contains a code or string in each line. How to count the number of lines containing a specific code?
+16.grep -c “string ” filename
+17.You have SSH access to a machine ‘A’ within a remote LAN. However, another machine ‘B’ in the same remote LAN is not directly accessible and lacks internet connectivity. Your goal is to synchronize data from machine ‘B’ to your local PC. Unfortunately, machine ‘A’ doesn’t have sufficient disk space to store the entire dataset. What options do you have to achieve this data synchronization?
+18.What is the difference between SIGKILL and SIGTERM signals and how to send them?
+19.What is the meaning of the $HOME/.ssh/authorized_keys file and what is the access permission in octal value of the .ssh directory?
+20.What is crontab? How to modify it?
+21.What is the logic difference for below? 
+                       46 05 01-07 */3 TUE /script.sh
+                       46 05 01-07 */3 * [[ `date +\%a` == "Tue" ]] && /script.sh
+22.WHat is load average?
+23.Describe the following and tell what would be the output of the script execution.
+
+% cat weekdays.txt
+Monday Tuesday Wednesday
+
+%cat script.sh
+#!/bin/bash
+weekdays=( $(cat weekdays.txt) )
+for day in "${weekdays[@]}"
+do
+  	res=${#day}
+ 	 echo "$res"
+done
+24.What  these two commands are doing and what is the difference?
+“aws s3 sync /data s3://data-bucket” 
+“aws s3 cp /data s3://data-bucket --recursive”
+25.You accidentally stopped an EC2 instance in a VPC with an associated Elastic IP. If you start the instance again, what will be the result?
+26.What is AMI ?
+27.How are Amazon RDS, DynamoDB and Redshift different from each other?
+28.Is it possible to connect a VPC in my account with a VPC of another account?
+29.Explain the concept of Load Balancing in AWS.
+30.What are the key benefits of using AWS Lambda?
+31.What is the difference between Iterator and Generator?
+32.What is __init__?
+33.How can you use a try-except block to handle potential exceptions in Python?
+34.def test_func(my_list=list()):
+  		  my_list += ['new']
+  		  print(len(my_list))
+
+>>> test_func()
+>>> 1
+>>> test_func([1])
+>>> 2
+>>> test_func()
+>>> 2
+
+
+Photon-L1
+
+1.Introduction?
+2. How to use elk stack for centralized monitoring?
+3. How you have installed monitoring tools to manage data and analysis?
+4. With respect to terraform what are challenges you have faced while working?
+5. What is use of modules?
+6.How you manage multiple versions of terraform
+7.What is state file and how you manage it?
+8.Explain ELK architecture and its components and how data flows 
+9.How you manage kibana dashboard?
+10.What are Ansible playbooks?
+11.What are ansible roles and handlers?
+12.How you manage security in aws infra?
+13. How you have used IAM roles?
+14. What are AZURE policies?
+15.What are active directory in AZURE?
+16.How you do cost optimization in AZURE?
+17.Why you have used terraform, compare it with other IAC 
+18.have you worked with docker?
+19.Difference between docker containers and k8s
+
+
+Coforge-L2
+
+1.Introduction?
+2.Hard skills?
+3.Soft skills?
+4.Explain your role ?
+
 
