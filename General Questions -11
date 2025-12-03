@@ -35,3 +35,75 @@ Tell me tools you worked on
 Explain ELK stack
 Immediate joinee ?
 Last date of previous organization?
+
+Innovasolutions-L1
+
+In project any issue you faced? Any hotfixes?
+AWS services that you worked on?
+Types of the EC2 types in AWS
+Tell me common use cases in jenkins that you do?
+what is Declarative syntax 
+What are some of environment variables you used in jenkins
+What is container orchestration
+What are the major issues you had in EKS & what did you learn
+have you worked on sonar integration?
+How do you use docker containers via jenkins pipeline?
+Have you ever setup the multi-branch pipeline 
+Any post build actions that you can configure in jenkins?
+In AWS, How auto scaling works?
+How can system monitoring be setup in AWS?
+Tell me AWS services that are not region specific? 
+Have you worked on cloudwatch with EC2 instances to bring up the server?
+Tell me seccurity features you worked on
+
+
+Zensar-L1
+
+Explain the kubernetes components
+Explain terraform ec2 instance block & steps to do in terraform from start
+Tell me terraform lifecycle
+Tell me about how to secure Kubernetes & Security challenges
+Did you ever do RCA for any issue?
+how did you configure the prometheus with the Graphana
+How does the prometheus collect the information from EKS
+Did you work on splunk?
+how experienced are you with Python & any scripting
+Do you have any offers?
+Are you still working or ready to join?
+Explain the errors logs that you worked in kubernetes
+Difference between deployment & statefulset controller
+Did you work on helm charts? & explain a bit
+Explain PV vs PVCs
+what does the HPA do in Kubernetes?
+Explains about the role in the organization of Zensar & tech stack that I will work on
+
+Brillio-L1
+
+Git pull vs git fetch
+what is rebase
+docker cmd vs entry point
+Can CMD and Entry point be used in a same docker file?
+In kubernetes issue, what will you do if crashloop occurs?
+use of readiness probe for investigation
+When will the container not ready issue come?
+When the deploy is min 3 - max 30, if HPA also exceeds and on what basis HPA works? When will it scale.
+Define metrics server 
+If application is deployed & some issues is there. how will you debug & solve the issue?
+Exposure to microservices? What is it?
+Advantage of having microservices?
+what is k8s components
+Have you worked with openshift?
+What does ArgoCD does?
+What is purpose of using Helm chart?
+How the build & artifactory creation is done? Tell process
+How is the authentication ECR to EKS happen?
+
+
+Brillio-L2-Client Round
+
+Give me a short brief intro
+What are the kubernetes objects you worked on
+Tell me the monitoring tools you worked on
+How is the logging performed in your project?
+Tell me the kubernetes errors that you resolved in your project?
+
